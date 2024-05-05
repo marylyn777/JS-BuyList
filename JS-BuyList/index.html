@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="uk">
+	<meta charset="UTF-8">
+	<title>My List</title>
+	<meta name="viewport" content="width=device-width, initial scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+
+<body class="fullColor">
+	<div class="top-c fullWindow">
+	<div class="fullBlock">
+		<div class="product-c">
+			<input type="text" class="search" placeholder="Назва товару">
+			<button class="buttonAdd tooltip" data-tooltip="Додати">Додати</button>
+		</div>
+		<div class="product-c">
+			<p class="tomato line fixedSize">Помідори</p>
+			<input type="text" class="amount" value="2">
+			<div class="bought">
+				<button class="buttonPurchase tooltip" data-tooltip="Купити">Не куплено</button>
+			</div>
+		</div>
+		<div class="product-c">
+			<p class="cookie fixedSize">Печиво</p>
+			<div class="panelAmount">
+				<button class="minus special center tooltip" data-tooltip="Видалити">-</button>
+				<input type="text" class="amount" value="2">
+				<button class="plus center tooltip" data-tooltip="Додати">+</button>
+			</div>
+			<div class="bought">
+				<button class="buttonPurchase tooltip" data-tooltip="Куплено">Куплено</button>
+				<button class="no tooltip" data-tooltip="Скасувати">x</button>
+			</div>
+		</div>
+		<div class="product-c">
+			<input type="text" class="cheese fixedSize" value="Сир">
+			<div class="panelAmount">
+				<button class="minus center btnDisabled">-</button>
+				<input  type="text" class="amount" value="2">
+				<button class="plus center tooltip" data-tooltip="Додати">+</button>
+			</div>
+			<div class="bought">
+				<button class="buttonPurchase tooltip" data-tooltip="Куплено">Куплено</button>
+				<button class="no tooltip" data-tooltip="Скасувати">x</button>
+			</div>
+		</div>
+	</div>
+	<div class="elem">
+		<div class="blocks2">
+			<p class="left">Залишилося</p>
+		</div>
+		<div class="blocks2">
+			<div class="prodLeft">
+				<div class="food-wrapper">
+					<input type="text" class="food" value="Печиво" readonly>
+					<input type="text" class="amountOfFood" value="2" readonly>
+				</div>
+				<div class="food-wrapper">
+					<input type="text" class="food" value="Сир" readonly>
+					<input type="text" class="amountOfFood" value="1" readonly>
+				</div>
+			</div>
+		</div>
+		<div class="blocks2">
+			<p class="left">Куплено</p>
+		</div>
+		<div class="blocks2">
+			<div class="prodLeft">
+				<div class="food-wrapper">
+					<input type="text" class="food line" value="Помідори" readonly>
+					<input type="text" class="amountOfFood line" value="2" readonly>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</div>
+<div class="cont">
+	<div class="animation-c">
+		<div class="btn-animation">
+			<h2 class="badge">Buy List</h2>
+			<div class="a-show-hover">
+				<p class="text newSize">Created by:</p>
+				<h2 class="text">Mariia Kalianova</h2>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+</body>
+
+</html>
